@@ -13,5 +13,11 @@ namespace COMP2007_S2016_Lesson3C
         {
 
         }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            //Replace this code with email processing code
+            Response.Redirect("Default.aspx");
+        }
     }
 }
